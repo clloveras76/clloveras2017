@@ -1,0 +1,116 @@
+// mixins
+
+@mixin transparent_class06 {
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+
+  /* IE 5-7 */
+  filter: alpha(opacity=60);
+
+  /* Netscape */
+  -moz-opacity: 0.6;
+
+  /* Safari 1.x */
+  -khtml-opacity: 0.6;
+
+  /* Good browsers */
+  opacity: 0.6;
+}
+
+
+// variables
+
+$paletteColorBlueDark:#011627;
+$paletteColorGreenBlue:#2EC4B6;
+$paletteColorlightBlue:#0496FF;
+$mainFontRoboto:'Roboto', sans-serif;
+
+
+
+  body{ 
+  		background-color:$paletteColorlightBlue; 
+  		font-family:$mainFontRoboto;
+  	}
+
+  @media only screen and (min-width:768px){
+
+	body{
+		/* padding para evitar solapamiento navbar top*/
+		padding-top:86px;
+	}
+
+  }
+  @media only screen and (max-width:768px){
+
+	body{
+		/* padding para evitar solapamiento navbar top*/
+		padding-top:49px;
+	}
+
+  }
+
+.containerHome{
+	color:#fff;
+}
+
+#h1welcome{
+	font-size:48px;
+}
+
+.containerHome p{
+  font-size: 22px;
+}
+
+
+/* Top navbar estilos*/
+	
+#navbar-1{
+	padding:15px;
+}
+
+.navbar {
+	border: 0px;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-nav li a{
+	color:#fff;	
+	font-size:22px;
+}
+
+.navbar .navbar-nav li a:hover{
+	@include transparent_class06;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.topNavigationBar{
+	background-color:$paletteColorBlueDark;
+}
+
+/* Top navbar estilos*/
+
+
+/* MainFooter estilos*/
+.mainFooter{
+	border: solid 1px green;
+	padding: 20px;
+	background-color: #011627;
+	border-top: solid 15px #FF3366;
+	text-align: center;
+}
+.mainFooter a{
+	color:#fff;
+}
+.mainFooter a:hover{
+	@include transparent_class06;
+}
+/* MainFooter estilos*/
+
+

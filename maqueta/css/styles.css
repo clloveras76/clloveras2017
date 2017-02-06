@@ -1,0 +1,114 @@
+/* line 30, styles.scss */
+body {
+  background-color: #0496ff;
+  font-family: "Roboto", sans-serif;
+}
+
+@media only screen and (min-width: 768px) {
+  /* line 37, styles.scss */
+  body {
+    /* padding para evitar solapamiento navbar top*/
+    padding-top: 86px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* line 45, styles.scss */
+  body {
+    /* padding para evitar solapamiento navbar top*/
+    padding-top: 49px;
+  }
+}
+/* line 52, styles.scss */
+.containerHome {
+  color: #fff;
+}
+
+/* line 56, styles.scss */
+#h1welcome {
+  font-size: 48px;
+}
+
+/* line 60, styles.scss */
+.containerHome p {
+  font-size: 22px;
+}
+
+/* Top navbar estilos*/
+/* line 67, styles.scss */
+#navbar-1 {
+  padding: 15px;
+}
+
+/* line 71, styles.scss */
+.navbar {
+  border: 0px;
+}
+
+/* line 74, styles.scss */
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  text-transform: uppercase;
+}
+
+/* line 80, styles.scss */
+.navbar .navbar-nav li a {
+  color: #fff;
+  font-size: 22px;
+}
+
+/* line 85, styles.scss */
+.navbar .navbar-nav li a:hover {
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  /* IE 5-7 */
+  filter: alpha(opacity=60);
+  /* Netscape */
+  -moz-opacity: 0.6;
+  /* Safari 1.x */
+  -khtml-opacity: 0.6;
+  /* Good browsers */
+  opacity: 0.6;
+}
+
+/* line 89, styles.scss */
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+/* line 93, styles.scss */
+.topNavigationBar {
+  background-color: #011627;
+}
+
+/* Top navbar estilos*/
+/* MainFooter estilos*/
+/* line 101, styles.scss */
+.mainFooter {
+  border: solid 1px green;
+  padding: 20px;
+  background-color: #011627;
+  border-top: solid 15px #FF3366;
+  text-align: center;
+}
+
+/* line 108, styles.scss */
+.mainFooter a {
+  color: #fff;
+}
+
+/* line 111, styles.scss */
+.mainFooter a:hover {
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  /* IE 5-7 */
+  filter: alpha(opacity=60);
+  /* Netscape */
+  -moz-opacity: 0.6;
+  /* Safari 1.x */
+  -khtml-opacity: 0.6;
+  /* Good browsers */
+  opacity: 0.6;
+}
+
+/* MainFooter estilos*/
