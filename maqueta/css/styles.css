@@ -1,114 +1,119 @@
-/* line 30, styles.scss */
+/* line 29, styles.scss */
 body {
-  background-color: #0496ff;
   font-family: "Roboto", sans-serif;
+  color: #3c3e45;
+}
+
+/* line 33, styles.scss */
+ul li {
+  list-style-type: none;
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 37, styles.scss */
+  /* line 39, styles.scss */
   body {
     /* padding para evitar solapamiento navbar top*/
     padding-top: 86px;
   }
 }
 @media only screen and (max-width: 768px) {
-  /* line 45, styles.scss */
+  /* line 47, styles.scss */
   body {
     /* padding para evitar solapamiento navbar top*/
     padding-top: 49px;
   }
 }
-/* line 52, styles.scss */
+/* line 54, styles.scss */
 .containerHome {
-  color: #fff;
+  color: #3c3e45;
 }
 
-/* line 56, styles.scss */
+/* line 58, styles.scss */
 #h1welcome {
   font-size: 48px;
 }
 
-/* line 60, styles.scss */
+/* line 62, styles.scss */
 .containerHome p {
   font-size: 22px;
 }
 
 /* Top navbar estilos*/
-/* line 67, styles.scss */
+/* line 69, styles.scss */
 #navbar-1 {
   padding: 15px;
 }
 
-/* line 71, styles.scss */
+/* line 73, styles.scss */
 .navbar {
   border: 0px;
 }
 
-/* line 74, styles.scss */
+/* line 76, styles.scss */
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
   text-transform: uppercase;
 }
 
-/* line 80, styles.scss */
+/* line 82, styles.scss */
 .navbar .navbar-nav li a {
-  color: #fff;
   font-size: 22px;
+  color: #ffffff;
 }
 
-/* line 85, styles.scss */
+/* line 87, styles.scss */
 .navbar .navbar-nav li a:hover {
+  color: #ff3366;
   /* IE 8 */
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
   /* IE 5-7 */
-  filter: alpha(opacity=60);
+  filter: alpha(opacity=90);
   /* Netscape */
-  -moz-opacity: 0.6;
+  -moz-opacity: 0.9;
   /* Safari 1.x */
-  -khtml-opacity: 0.6;
+  -khtml-opacity: 0.9;
   /* Good browsers */
-  opacity: 0.6;
+  opacity: 0.9;
 }
 
-/* line 89, styles.scss */
+/* line 92, styles.scss */
 .navbar .navbar-collapse {
   text-align: center;
 }
 
-/* line 93, styles.scss */
+/* line 96, styles.scss */
 .topNavigationBar {
   background-color: #011627;
 }
 
 /* Top navbar estilos*/
 /* MainFooter estilos*/
-/* line 101, styles.scss */
+/* line 104, styles.scss */
 .mainFooter {
-  border: solid 1px green;
-  padding: 20px;
+  padding: 10px;
   background-color: #011627;
-  border-top: solid 15px #FF3366;
   text-align: center;
-}
-
-/* line 108, styles.scss */
-.mainFooter a {
   color: #fff;
 }
 
 /* line 111, styles.scss */
+.mainFooter a {
+  font-size: 10px;
+}
+
+/* line 114, styles.scss */
 .mainFooter a:hover {
   /* IE 8 */
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
   /* IE 5-7 */
-  filter: alpha(opacity=60);
+  filter: alpha(opacity=90);
   /* Netscape */
-  -moz-opacity: 0.6;
+  -moz-opacity: 0.9;
   /* Safari 1.x */
-  -khtml-opacity: 0.6;
+  -khtml-opacity: 0.9;
   /* Good browsers */
-  opacity: 0.6;
+  opacity: 0.9;
 }
 
 /* MainFooter estilos*/
