@@ -38,7 +38,7 @@ ul li{
 
 	body{
 		/* padding para evitar solapamiento navbar top*/
-		padding-top:86px;
+		padding-top:84px;
 	}
 
   }
@@ -51,6 +51,11 @@ ul li{
 
   }
 
+
+.mainContainerHome{
+	padding-right: 0px!important;
+    padding-left: 0px!important; 
+}
 .containerHome{
 	color: #3c3e45;
 }

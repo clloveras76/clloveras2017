@@ -13,7 +13,7 @@ ul li {
   /* line 39, styles.scss */
   body {
     /* padding para evitar solapamiento navbar top*/
-    padding-top: 86px;
+    padding-top: 84px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -23,46 +23,52 @@ ul li {
     padding-top: 49px;
   }
 }
-/* line 54, styles.scss */
+/* line 55, styles.scss */
+.mainContainerHome {
+  padding-right: 0px!important;
+  padding-left: 0px!important;
+}
+
+/* line 59, styles.scss */
 .containerHome {
   color: #3c3e45;
 }
 
-/* line 58, styles.scss */
+/* line 63, styles.scss */
 #h1welcome {
   font-size: 48px;
 }
 
-/* line 62, styles.scss */
+/* line 67, styles.scss */
 .containerHome p {
   font-size: 22px;
 }
 
 /* Top navbar estilos*/
-/* line 69, styles.scss */
+/* line 74, styles.scss */
 #navbar-1 {
   padding: 15px;
 }
 
-/* line 73, styles.scss */
+/* line 78, styles.scss */
 .navbar {
   border: 0px;
 }
 
-/* line 76, styles.scss */
+/* line 81, styles.scss */
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
   text-transform: uppercase;
 }
 
-/* line 82, styles.scss */
+/* line 87, styles.scss */
 .navbar .navbar-nav li a {
   font-size: 22px;
   color: #ffffff;
 }
 
-/* line 87, styles.scss */
+/* line 92, styles.scss */
 .navbar .navbar-nav li a:hover {
   color: #ff3366;
   /* IE 8 */
@@ -77,19 +83,19 @@ ul li {
   opacity: 0.9;
 }
 
-/* line 92, styles.scss */
+/* line 97, styles.scss */
 .navbar .navbar-collapse {
   text-align: center;
 }
 
-/* line 96, styles.scss */
+/* line 101, styles.scss */
 .topNavigationBar {
   background-color: #011627;
 }
 
 /* Top navbar estilos*/
 /* MainFooter estilos*/
-/* line 104, styles.scss */
+/* line 109, styles.scss */
 .mainFooter {
   padding: 10px;
   background-color: #011627;
@@ -97,12 +103,12 @@ ul li {
   color: #fff;
 }
 
-/* line 111, styles.scss */
+/* line 116, styles.scss */
 .mainFooter a {
   font-size: 10px;
 }
 
-/* line 114, styles.scss */
+/* line 119, styles.scss */
 .mainFooter a:hover {
   /* IE 8 */
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
