@@ -1,101 +1,155 @@
-/* line 29, styles.scss */
+/* line 32, styles.scss */
 body {
   font-family: "Roboto", sans-serif;
   color: #3c3e45;
 }
 
-/* line 33, styles.scss */
+/* line 36, styles.scss */
 ul li {
   list-style-type: none;
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 39, styles.scss */
+  /* line 42, styles.scss */
   body {
     /* padding para evitar solapamiento navbar top*/
     padding-top: 84px;
   }
 }
 @media only screen and (max-width: 768px) {
-  /* line 47, styles.scss */
+  /* line 50, styles.scss */
   body {
     /* padding para evitar solapamiento navbar top*/
     padding-top: 49px;
   }
 }
-/* line 55, styles.scss */
+/* line 57, styles.scss */
+.colorWhite {
+  color: white;
+}
+
+/* line 60, styles.scss */
+.colorlightBLue {
+  color: #0496ff;
+}
+
+/* line 63, styles.scss */
+.colorPinkBLue {
+  color: #ff3366;
+}
+
+/* line 66, styles.scss */
+.colorlightBLue {
+  color: #0496ff;
+}
+
+/* line 69, styles.scss */
+.colorBLueDark {
+  color: #011627;
+}
+
+/* line 72, styles.scss */
 .mainContainerHome {
   padding-right: 0px!important;
   padding-left: 0px!important;
 }
 
-/* line 59, styles.scss */
+/* line 76, styles.scss */
 .containerHome {
   color: #3c3e45;
 }
 
-/* line 63, styles.scss */
+/* line 80, styles.scss */
 #h1welcome {
-  font-size: 48px;
+  font-weight: 900;
+  font-size: 100px;
 }
 
-/* line 67, styles.scss */
+/* line 85, styles.scss */
 .containerHome p {
   font-size: 22px;
 }
 
 /* Top navbar estilos*/
-/* line 74, styles.scss */
+/* line 92, styles.scss */
 #navbar-1 {
   padding: 15px;
 }
 
-/* line 78, styles.scss */
+/* line 96, styles.scss */
 .navbar {
   border: 0px;
 }
 
-/* line 81, styles.scss */
+/* line 100, styles.scss */
+.navbar-brand {
+  font-weight: 900;
+  color: #ffffff!important;
+  background-color: #f3f3f3;
+}
+
+@media only screen and (min-width: 768px) {
+  /* line 107, styles.scss */
+  .navbar-brand {
+    margin-top: 17px;
+  }
+}
+/* line 111, styles.scss */
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
   text-transform: uppercase;
 }
 
-/* line 87, styles.scss */
+/* line 118, styles.scss */
 .navbar .navbar-nav li a {
-  font-size: 22px;
-  color: #ffffff;
+  font-size: 20px;
+  color: #777;
 }
 
-/* line 92, styles.scss */
+@media (min-width: 769px) and (max-width: 990px) {
+  /* line 124, styles.scss */
+  .navbar .navbar-nav li a {
+    font-size: 16px;
+    color: red!important;
+  }
+}
+/* line 129, styles.scss */
 .navbar .navbar-nav li a:hover {
-  color: #ff3366;
-  /* IE 8 */
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-  /* IE 5-7 */
-  filter: alpha(opacity=90);
-  /* Netscape */
-  -moz-opacity: 0.9;
-  /* Safari 1.x */
-  -khtml-opacity: 0.9;
-  /* Good browsers */
-  opacity: 0.9;
+  /*	color:$paletteColorLightBlue; */
+  /*@include transparent_class06;*/
+  color: #fff!important;
+  background-color: #0496ff;
+  -moz-transition: all 0.3s ease-in;
+  /* WebKit */
+  -webkit-transition: all 0.3s ease-in;
+  /* Opera */
+  -o-transition: all 0.3s ease-in;
+  /* Standard */
+  transition: all 0.3s ease-in;
 }
 
-/* line 97, styles.scss */
+/* line 144, styles.scss */
 .navbar .navbar-collapse {
   text-align: center;
 }
 
-/* line 101, styles.scss */
+/* line 147, styles.scss */
+.activeBtn {
+  border-bottom: solid 1px #ff3366;
+}
+
+/* line 151, styles.scss */
 .topNavigationBar {
-  background-color: #011627;
+  background-color: #f8f8f8;
+  -webkit-box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.6);
+  box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.6);
 }
 
 /* Top navbar estilos*/
 /* MainFooter estilos*/
-/* line 109, styles.scss */
+/* line 162, styles.scss */
 .mainFooter {
   padding: 10px;
   background-color: #011627;
@@ -103,12 +157,12 @@ ul li {
   color: #fff;
 }
 
-/* line 116, styles.scss */
+/* line 169, styles.scss */
 .mainFooter a {
   font-size: 10px;
 }
 
-/* line 119, styles.scss */
+/* line 172, styles.scss */
 .mainFooter a:hover {
   /* IE 8 */
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";

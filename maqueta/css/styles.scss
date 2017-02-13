@@ -19,9 +19,12 @@
 
 
 // variables
-
+$paletteColorWhite:#FFFFFF;
 $paletteColorBlueDark:#011627;
 $paletteColorGreenBlue:#2EC4B6;
+$paletteColorLightBlue:#0496FF;
+$paletteColorPinkBlue:#FF3366;
+$paletteLightSilver: #f8f8f8;
 $mainFontRoboto:'Roboto', sans-serif;
 
 
@@ -51,7 +54,21 @@ ul li{
 
   }
 
-
+.colorWhite{ 
+	color: $paletteColorWhite; 
+}
+.colorlightBLue{ 
+	color: $paletteColorLightBlue;
+}
+.colorPinkBLue{ 
+	color: $paletteColorPinkBlue; 
+}
+.colorlightBLue{ 
+	color: $paletteColorLightBlue; 
+}
+.colorBLueDark{ 
+	color: $paletteColorBlueDark; 
+}
 .mainContainerHome{
 	padding-right: 0px!important;
     padding-left: 0px!important; 
@@ -61,7 +78,8 @@ ul li{
 }
 
 #h1welcome{
-	font-size:48px;
+	font-weight: 900;
+    font-size: 100px;
 }
 
 .containerHome p{
@@ -78,28 +96,63 @@ ul li{
 .navbar {
 	border: 0px;
 }
+
+.navbar-brand{
+	 font-weight: 900;
+	 color:#ffffff!important;
+	 background-color:#f3f3f3;
+
+}
+  @media only screen and (min-width:768px){
+	.navbar-brand{
+		 margin-top:17px; 
+	}
+}
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
     text-transform: uppercase;
+
 }
 
 .navbar .navbar-nav li a{
-	font-size:22px;
-	color: #ffffff;
+	font-size:20px;
+	color:#777;
+}
+
+ @media (min-width: 769px) and (max-width:990px) {
+	.navbar .navbar-nav li a{
+		font-size:16px;	color: red!important;
+	}
 }
 
 .navbar .navbar-nav li a:hover{
-	color:#ff3366;
-	@include transparent_class06;
+	/*	color:$paletteColorLightBlue; */
+	/*@include transparent_class06;*/
+	color:#fff!important;
+	background-color:$paletteColorLightBlue;
+
+	-moz-transition: all 0.3s ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.3s ease-in;
+    /* Opera */
+    -o-transition: all 0.3s ease-in;
+    /* Standard */
+    transition: all 0.3s ease-in;
 }
 
 .navbar .navbar-collapse {
     text-align: center;
 }
+.activeBtn{
+	border-bottom:solid 1px $paletteColorPinkBlue;
+}
 
 .topNavigationBar{
-	background-color:$paletteColorBlueDark;
+	background-color:$paletteLightSilver;
+	-webkit-box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.6);
+	box-shadow:  1px 1px 4px 1px rgba(0, 0, 0, 0.6);
 }
 
 /* Top navbar estilos*/
