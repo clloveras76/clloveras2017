@@ -24,64 +24,79 @@ ul li {
   }
 }
 /* line 57, styles.scss */
+hr {
+  border-bottom: solid 1px #2ec4b6;
+}
+
+/* line 61, styles.scss */
 .colorWhite {
   color: white;
 }
 
-/* line 60, styles.scss */
+/* line 64, styles.scss */
 .colorlightBLue {
   color: #0496ff;
 }
 
-/* line 63, styles.scss */
+/* line 67, styles.scss */
 .colorPinkBLue {
   color: #ff3366;
 }
 
-/* line 66, styles.scss */
+/* line 70, styles.scss */
 .colorlightBLue {
   color: #0496ff;
 }
 
-/* line 69, styles.scss */
+/* line 73, styles.scss */
 .colorBLueDark {
   color: #011627;
 }
 
-/* line 72, styles.scss */
+/* line 76, styles.scss */
+.ColorGreenBlue {
+  color: #2ec4b6;
+}
+
+/* line 80, styles.scss */
 .mainContainerHome {
   padding-right: 0px!important;
   padding-left: 0px!important;
 }
 
-/* line 76, styles.scss */
+/* line 84, styles.scss */
 .containerHome {
   color: #3c3e45;
 }
 
-/* line 80, styles.scss */
+/* line 88, styles.scss */
+.txtcenter {
+  text-align: center;
+}
+
+/* line 94, styles.scss */
 #h1welcome {
   font-weight: 900;
   font-size: 100px;
 }
 
-/* line 85, styles.scss */
+/* line 99, styles.scss */
 .containerHome p {
   font-size: 22px;
 }
 
 /* Top navbar estilos*/
-/* line 92, styles.scss */
+/* line 106, styles.scss */
 #navbar-1 {
   padding: 15px;
 }
 
-/* line 96, styles.scss */
+/* line 110, styles.scss */
 .navbar {
   border: 0px;
 }
 
-/* line 100, styles.scss */
+/* line 114, styles.scss */
 .navbar-brand {
   font-weight: 900;
   color: #ffffff!important;
@@ -89,37 +104,37 @@ ul li {
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 107, styles.scss */
+  /* line 121, styles.scss */
   .navbar-brand {
     margin-top: 17px;
   }
 }
-/* line 111, styles.scss */
+/* line 125, styles.scss */
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
   text-transform: uppercase;
 }
 
-/* line 118, styles.scss */
+/* line 132, styles.scss */
 .navbar .navbar-nav li a {
   font-size: 20px;
   color: #777;
 }
 
 @media (min-width: 769px) and (max-width: 990px) {
-  /* line 124, styles.scss */
+  /* line 138, styles.scss */
   .navbar .navbar-nav li a {
     font-size: 16px;
     color: red!important;
   }
 }
-/* line 129, styles.scss */
+/* line 143, styles.scss */
 .navbar .navbar-nav li a:hover {
   /*	color:$paletteColorLightBlue; */
   /*@include transparent_class06;*/
   color: #fff!important;
-  background-color: #0496ff;
+  background-color: #011627;
   -moz-transition: all 0.3s ease-in;
   /* WebKit */
   -webkit-transition: all 0.3s ease-in;
@@ -129,17 +144,17 @@ ul li {
   transition: all 0.3s ease-in;
 }
 
-/* line 144, styles.scss */
+/* line 158, styles.scss */
 .navbar .navbar-collapse {
   text-align: center;
 }
 
-/* line 147, styles.scss */
+/* line 161, styles.scss */
 .activeBtn {
-  border-bottom: solid 1px #ff3366;
+  border-bottom: solid 2px #2ec4b6;
 }
 
-/* line 151, styles.scss */
+/* line 165, styles.scss */
 .topNavigationBar {
   background-color: #f8f8f8;
   -webkit-box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.6);
@@ -149,20 +164,23 @@ ul li {
 
 /* Top navbar estilos*/
 /* MainFooter estilos*/
-/* line 162, styles.scss */
+/* line 176, styles.scss */
 .mainFooter {
   padding: 10px;
+  padding-bottom: 0px;
   background-color: #011627;
   text-align: center;
   color: #fff;
+  margin-top: 35px;
 }
 
-/* line 169, styles.scss */
-.mainFooter a {
-  font-size: 10px;
+/* line 185, styles.scss */
+.mainFooter .footerSocial {
+  font-size: 16px;
+  margin-top: 20px;
 }
 
-/* line 172, styles.scss */
+/* line 189, styles.scss */
 .mainFooter a:hover {
   /* IE 8 */
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
@@ -176,4 +194,95 @@ ul li {
   opacity: 0.9;
 }
 
+/* line 193, styles.scss */
+.square-l {
+  background: #FF3366;
+  color: #fff;
+  vertical-align: middle;
+}
+
+/* line 199, styles.scss */
+.square-l {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+}
+
+/* line 204, styles.scss */
+.square-l .fa {
+  /*	line-height: 60px; */
+  color: #fff;
+  font-size: 28px;
+}
+
+/* line 209, styles.scss */
+.goup {
+  overflow: hidden;
+}
+
+/* line 213, styles.scss */
+.goup span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  opacity: 1;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  text-align: center;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transition: all 0.6s cubic-bezier(0.05, 0.06, 0.05, 0.95);
+  transition: all 0.6s cubic-bezier(0.05, 0.06, 0.05, 0.95);
+}
+
+/* line 233, styles.scss */
+.goup span span:nth-of-type(1) {
+  top: 18px;
+}
+
+/* line 234, styles.scss */
+.goup span span:nth-of-type(2) {
+  top: 60px;
+}
+
+/* line 235, styles.scss */
+.goup span span:nth-of-type(3) {
+  top: 120px;
+}
+
+/* line 236, styles.scss */
+.goup span span:nth-of-type(4) {
+  top: 180px;
+}
+
+/* line 237, styles.scss */
+.goup span span:nth-of-type(5) {
+  top: 240px;
+}
+
+/* line 238, styles.scss */
+.goup span span:nth-of-type(6) {
+  top: 320px;
+}
+
+/* line 240, styles.scss */
+.goup:hover > span {
+  top: -224px;
+}
+
+/* line 244, styles.scss */
+.copyright {
+  font-size: 16px;
+  margin: 16px;
+}
+
 /* MainFooter estilos*/
+/* line 252, styles.scss */
+.home-services-box .fa {
+  color: #2ec4b6;
+}
