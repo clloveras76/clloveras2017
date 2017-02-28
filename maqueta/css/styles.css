@@ -74,29 +74,35 @@ hr {
   text-align: center;
 }
 
-/* line 94, styles.scss */
+/* line 92, styles.scss */
+.underlinegreen {
+  border-bottom: 2px solid #2ec4b6;
+  padding-bottom: 3px;
+}
+
+/* line 97, styles.scss */
 #h1welcome {
   font-weight: 900;
   font-size: 100px;
 }
 
-/* line 99, styles.scss */
+/* line 102, styles.scss */
 .containerHome p {
   font-size: 22px;
 }
 
 /* Top navbar estilos*/
-/* line 106, styles.scss */
+/* line 109, styles.scss */
 #navbar-1 {
   padding: 15px;
 }
 
-/* line 110, styles.scss */
+/* line 113, styles.scss */
 .navbar {
   border: 0px;
 }
 
-/* line 114, styles.scss */
+/* line 117, styles.scss */
 .navbar-brand {
   font-weight: 900;
   color: #ffffff!important;
@@ -104,32 +110,32 @@ hr {
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 121, styles.scss */
+  /* line 124, styles.scss */
   .navbar-brand {
     margin-top: 17px;
   }
 }
-/* line 125, styles.scss */
+/* line 128, styles.scss */
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
   text-transform: uppercase;
 }
 
-/* line 132, styles.scss */
+/* line 135, styles.scss */
 .navbar .navbar-nav li a {
   font-size: 20px;
   color: #777;
 }
 
 @media (min-width: 769px) and (max-width: 990px) {
-  /* line 138, styles.scss */
+  /* line 141, styles.scss */
   .navbar .navbar-nav li a {
     font-size: 16px;
     color: red!important;
   }
 }
-/* line 143, styles.scss */
+/* line 146, styles.scss */
 .navbar .navbar-nav li a:hover {
   /*	color:$paletteColorLightBlue; */
   /*@include transparent_class06;*/
@@ -144,17 +150,17 @@ hr {
   transition: all 0.3s ease-in;
 }
 
-/* line 158, styles.scss */
+/* line 161, styles.scss */
 .navbar .navbar-collapse {
   text-align: center;
 }
 
-/* line 161, styles.scss */
+/* line 164, styles.scss */
 .activeBtn {
   border-bottom: solid 2px #2ec4b6;
 }
 
-/* line 165, styles.scss */
+/* line 168, styles.scss */
 .topNavigationBar {
   background-color: #f8f8f8;
   -webkit-box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.6);
@@ -164,63 +170,68 @@ hr {
 
 /* Top navbar estilos*/
 /* MainFooter estilos*/
-/* line 176, styles.scss */
+/* line 179, styles.scss */
 .mainFooter {
   padding: 10px;
   padding-bottom: 0px;
   background-color: #011627;
   text-align: center;
   color: #fff;
-  margin-top: 35px;
+  margin-top: 0px;
 }
 
-/* line 185, styles.scss */
+/* line 188, styles.scss */
 .mainFooter .footerSocial {
   font-size: 16px;
   margin-top: 20px;
 }
 
-/* line 189, styles.scss */
+/* line 193, styles.scss */
+.mainFooter a {
+  color: #0496ff;
+}
+
+/* line 196, styles.scss */
 .mainFooter a:hover {
   /* IE 8 */
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
   /* IE 5-7 */
-  filter: alpha(opacity=90);
+  filter: alpha(opacity=60);
   /* Netscape */
-  -moz-opacity: 0.9;
+  -moz-opacity: 0.6;
   /* Safari 1.x */
-  -khtml-opacity: 0.9;
+  -khtml-opacity: 0.6;
   /* Good browsers */
-  opacity: 0.9;
+  opacity: 0.6;
 }
 
-/* line 193, styles.scss */
+/* line 200, styles.scss */
 .square-l {
-  background: #FF3366;
+  background: #ff3366;
   color: #fff;
   vertical-align: middle;
 }
 
-/* line 199, styles.scss */
+/* line 206, styles.scss */
 .square-l {
   width: 60px;
   height: 60px;
   display: inline-block;
 }
 
-/* line 204, styles.scss */
+/* line 211, styles.scss */
 .square-l .fa {
   /*	line-height: 60px; */
   color: #fff;
   font-size: 28px;
 }
 
-/* line 209, styles.scss */
+/* line 216, styles.scss */
 .goup {
   overflow: hidden;
 }
 
-/* line 213, styles.scss */
+/* line 220, styles.scss */
 .goup span {
   position: absolute;
   width: 100%;
@@ -240,49 +251,76 @@ hr {
   transition: all 0.6s cubic-bezier(0.05, 0.06, 0.05, 0.95);
 }
 
-/* line 233, styles.scss */
+/* line 240, styles.scss */
 .goup span span:nth-of-type(1) {
   top: 18px;
 }
 
-/* line 234, styles.scss */
+/* line 241, styles.scss */
 .goup span span:nth-of-type(2) {
   top: 60px;
 }
 
-/* line 235, styles.scss */
+/* line 242, styles.scss */
 .goup span span:nth-of-type(3) {
   top: 120px;
 }
 
-/* line 236, styles.scss */
+/* line 243, styles.scss */
 .goup span span:nth-of-type(4) {
   top: 180px;
 }
 
-/* line 237, styles.scss */
+/* line 244, styles.scss */
 .goup span span:nth-of-type(5) {
   top: 240px;
 }
 
-/* line 238, styles.scss */
+/* line 245, styles.scss */
 .goup span span:nth-of-type(6) {
   top: 320px;
 }
 
-/* line 240, styles.scss */
+/* line 247, styles.scss */
 .goup:hover > span {
   top: -224px;
 }
 
-/* line 244, styles.scss */
+/* line 251, styles.scss */
 .copyright {
   font-size: 16px;
   margin: 16px;
 }
 
 /* MainFooter estilos*/
-/* line 252, styles.scss */
+/* line 259, styles.scss */
 .home-services-box .fa {
   color: #2ec4b6;
+  font-size: 60px;
+  /*text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);*/
+}
+
+/* bloque destacado */
+/* line 268, styles.scss */
+.bloquedestacado {
+  border-top: solid 1px #ccc;
+  background-color: #F9F9F2;
+  color: #3c3e45;
+  padding-top: 25px;
+  padding-bottom: 35px;
+}
+
+/* line 277, styles.scss */
+.bloquedestacado p {
+  font-size: 18px;
+}
+
+/* line 281, styles.scss */
+.bloquedestacado h3 {
+  font-weight: bold;
+}
+
+/* line 285, styles.scss */
+.bloquedestacado h2 {
+  font-weight: bold;
 }
