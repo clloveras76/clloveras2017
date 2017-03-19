@@ -76,7 +76,7 @@ ul li{
 .ColorGreenBlue{ 
 	color: $paletteColorGreenBlue; 
 }
-
+.bgcolorwhite{background-color:#fff!important;}
 .mainContainerHome{
 	padding-right: 0px!important;
     padding-left: 0px!important; 
@@ -88,6 +88,9 @@ ul li{
 .txtcenter{
 	text-align:center;
 }
+.lineHeight30{line-height:30px;}
+.marginBottom20{ margin-bottom:20px; }
+.marginBottom30{ margin-bottom:30px; }
 
 .underlinegreen{
 	border-bottom: 2px solid #2ec4b6;
