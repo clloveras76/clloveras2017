@@ -1,0 +1,354 @@
+/*
+Theme Name: clloverastheme
+Theme URI: http://www.carloslloveras.com.ar
+Description: Diseño web
+Version: 1.0
+Author: Carlos Lloveras
+Author URI: www.carloslloveras.com.ar
+Text Domain: clloverastheme
+*/
+body {
+  font-family: "Roboto", sans-serif;
+  color: #3c3e45;
+}
+
+
+ul li {
+  list-style-type: none;
+}
+
+@media only screen and (min-width: 768px) {
+  /* line 54, styles.scss */
+  body {
+    /* padding para evitar solapamiento navbar top*/
+    padding-top: 84px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* line 62, styles.scss */
+  body {
+    /* padding para evitar solapamiento navbar top*/
+    padding-top: 49px;
+  }
+}
+/* line 69, styles.scss */
+hr {
+  border-bottom: solid 1px #2ec4b6;
+}
+
+/* line 73, styles.scss */
+.colorWhite {
+  color: white;
+}
+
+/* line 76, styles.scss */
+.colorlightBLue {
+  color: #0496ff;
+}
+
+/* line 79, styles.scss */
+.colorPinkBLue {
+  color: #ff3366;
+}
+
+/* line 82, styles.scss */
+.colorlightBLue {
+  color: #0496ff;
+}
+
+/* line 85, styles.scss */
+.colorBLueDark {
+  color: #011627;
+}
+
+/* line 88, styles.scss */
+.ColorGreenBlue {
+  color: #2ec4b6;
+}
+
+/* line 91, styles.scss */
+.bgcolorwhite {
+  background-color: #fff!important;
+}
+
+/* line 92, styles.scss */
+.mainContainerHome {
+  padding-right: 0px!important;
+  padding-left: 0px!important;
+}
+
+/* line 96, styles.scss */
+.containerHome {
+  color: #3c3e45;
+}
+
+/* line 100, styles.scss */
+.txtcenter {
+  text-align: center;
+}
+
+/* line 103, styles.scss */
+.lineHeight30 {
+  line-height: 30px;
+}
+
+/* line 104, styles.scss */
+.marginBottom20 {
+  margin-bottom: 20px;
+}
+
+/* line 105, styles.scss */
+.marginBottom30 {
+  margin-bottom: 30px;
+}
+
+/* line 107, styles.scss */
+.underlinegreen {
+  border-bottom: 2px solid #2ec4b6;
+  padding-bottom: 3px;
+}
+
+/* line 112, styles.scss */
+#h1welcome {
+  font-weight: 900;
+  font-size: 100px;
+}
+
+/* line 117, styles.scss */
+.containerHome p {
+  font-size: 22px;
+}
+
+/* Top navbar estilos*/
+/* line 124, styles.scss */
+#navbar-1 {
+  padding: 15px;
+}
+
+/* line 128, styles.scss */
+.navbar {
+  border: 0px;
+}
+
+/* line 132, styles.scss */
+.navbar-brand {
+  font-weight: 900;
+  color: #ffffff!important;
+  background-color: #f3f3f3;
+}
+
+@media only screen and (min-width: 768px) {
+  /* line 139, styles.scss */
+  .navbar-brand {
+    margin-top: 17px;
+  }
+}
+/* line 143, styles.scss */
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  text-transform: uppercase;
+}
+
+/* line 150, styles.scss */
+.navbar .navbar-nav li a {
+  font-size: 20px;
+  color: #777;
+}
+
+@media (min-width: 769px) and (max-width: 990px) {
+  /* line 156, styles.scss */
+  .navbar .navbar-nav li a {
+    font-size: 16px;
+    color: red!important;
+  }
+}
+/* line 161, styles.scss */
+.navbar .navbar-nav li a:hover {
+  /*	color:$paletteColorLightBlue; */
+  /*@include transparent_class06;*/
+  color: #fff!important;
+  background-color: #011627;
+  -moz-transition: all 0.3s ease-in;
+  /* WebKit */
+  -webkit-transition: all 0.3s ease-in;
+  /* Opera */
+  -o-transition: all 0.3s ease-in;
+  /* Standard */
+  transition: all 0.3s ease-in;
+}
+
+/* line 176, styles.scss */
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+/* line 179, styles.scss */
+.activeBtn {
+  border-bottom: solid 2px #2ec4b6;
+}
+
+/* line 183, styles.scss */
+.topNavigationBar {
+  background-color: #f8f8f8;
+  -webkit-box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.6);
+  box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.6);
+}
+
+/* Top navbar estilos*/
+/* MainFooter estilos*/
+/* line 194, styles.scss */
+.mainFooter {
+  padding: 10px;
+  padding-bottom: 0px;
+  background-color: #011627;
+  text-align: center;
+  color: #fff;
+  margin-top: 0px;
+}
+
+/* line 203, styles.scss */
+.mainFooter .footerSocial {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+/* line 208, styles.scss */
+.mainFooter a {
+  color: #0496ff;
+}
+
+/* line 211, styles.scss */
+.mainFooter a:hover {
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  /* IE 5-7 */
+  filter: alpha(opacity=60);
+  /* Netscape */
+  -moz-opacity: 0.6;
+  /* Safari 1.x */
+  -khtml-opacity: 0.6;
+  /* Good browsers */
+  opacity: 0.6;
+}
+
+/* line 215, styles.scss */
+.square-l {
+  background: #ff3366;
+  color: #fff;
+  vertical-align: middle;
+}
+
+/* line 221, styles.scss */
+.square-l {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+}
+
+/* line 226, styles.scss */
+.square-l .fa {
+  /*	line-height: 60px; */
+  color: #fff;
+  font-size: 28px;
+}
+
+/* line 231, styles.scss */
+.goup {
+  overflow: hidden;
+}
+
+/* line 235, styles.scss */
+.goup span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  opacity: 1;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  text-align: center;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transition: all 0.6s cubic-bezier(0.05, 0.06, 0.05, 0.95);
+  transition: all 0.6s cubic-bezier(0.05, 0.06, 0.05, 0.95);
+}
+
+/* line 255, styles.scss */
+.goup span span:nth-of-type(1) {
+  top: 18px;
+}
+
+/* line 256, styles.scss */
+.goup span span:nth-of-type(2) {
+  top: 60px;
+}
+
+/* line 257, styles.scss */
+.goup span span:nth-of-type(3) {
+  top: 120px;
+}
+
+/* line 258, styles.scss */
+.goup span span:nth-of-type(4) {
+  top: 180px;
+}
+
+/* line 259, styles.scss */
+.goup span span:nth-of-type(5) {
+  top: 240px;
+}
+
+/* line 260, styles.scss */
+.goup span span:nth-of-type(6) {
+  top: 320px;
+}
+
+/* line 262, styles.scss */
+.goup:hover > span {
+  top: -224px;
+}
+
+/* line 266, styles.scss */
+.copyright {
+  font-size: 16px;
+  margin: 16px;
+}
+
+/* MainFooter estilos*/
+/* line 274, styles.scss */
+.home-services-box .fa {
+  color: #2ec4b6;
+  font-size: 60px;
+  /*text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);*/
+}
+
+/* bloque destacado */
+/* line 283, styles.scss */
+.bloquedestacado {
+  border-top: solid 1px #ccc;
+  background-color: #F9F9F2;
+  color: #3c3e45;
+  padding-top: 25px;
+  padding-bottom: 35px;
+}
+
+/* line 292, styles.scss */
+.bloquedestacado p {
+  font-size: 18px;
+}
+
+/* line 296, styles.scss */
+.bloquedestacado h3 {
+  font-weight: bold;
+}
+
+/* line 300, styles.scss */
+.bloquedestacado h2 {
+  font-weight: bold;
+}

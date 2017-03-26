@@ -1,0 +1,123 @@
+
+
+/*
+==============================================
+Codigo de letras entre contenedores
+==============================================
+*/
+/*
+.entre-contenedor{
+height: 100px;
+width: 100%;
+}
+
+.entre-contenedor h1{
+text-align: center;
+margin-top: 100px;
+margin-bottom: 0px;
+}
+
+*/
+/*
+==============================================
+Contenedor simple
+==============================================
+*/
+
+#contenedor1{
+  background: url("../img/responsive-email-design.jpg") fixed; //Imagen de fondo
+  max-height: 100%;
+  height: 300px; //altura del fondo
+  position: relative;
+  margin: 0 auto;
+  padding: 5%;
+  background-size: cover; //ajusta el fondo a la imagen
+
+}
+
+  @media only screen and (max-width:640px){
+  #contenedor1{
+    height: 150px;
+    }
+  }
+
+/*
+==============================================
+Contenedor compuesto
+==============================================
+*/
+/*
+#contenedor2 {
+  background: url("../images/espacio2.jpg") fixed; //Imagen de fondo
+  max-height: 100%;
+  height: 400px; //altura del fondo
+  position: relative;
+  margin: 0 auto;
+  padding: 5%; 
+  overflow: hidden;
+  background-size: cover; //ajusta el fondo a la imagen
+}
+
+#contenedor2 .scene img {
+  display: block;
+  width: 100%; //evitamos que las imagenes se desborden
+}
+
+#contenedor2 .layer:nth-child(1){
+  width: 250px; //Modificalo para cambiar el tamaño de la primera imagen de la lista
+}
+
+#contenedor2 .layer:nth-child(2){
+  width: 100px; //Modificalo para cambiar el tamaño de la segunda imagen de la lista
+}
+*/
+/*
+==============================================
+Contenedor texto
+==============================================
+*/
+/*
+#contenedor3 {
+  background: url("../images/espacio3.jpg") fixed; //Imagen de fondo
+  max-height: 100%;
+  height: 400px; //altura del fondo
+  position: relative;
+  margin: 0 auto;
+  padding: 5%;
+  background-size: cover; //ajusta el fondo a la imagen
+}
+
+#contenedor3 h1{
+  text-align: center;
+  margin-top: 150px;
+  color: #fff!important;
+}
+*/
+/*
+#contenedor4 {
+  background: url("../img/responsive-email-design.jpg") fixed; //Imagen de fondo
+  max-height: 100%;
+  height: 300px; //altura del fondo
+  position: relative;
+  margin: 0 auto;
+  padding: 5%;
+  background-size: cover; //ajusta el fondo a la imagen
+}
+
+
+#contenedor4 #h1welcome{
+ border:solid 1px #fff;
+ border-radius:3px;
+
+}
+
+#contenedor4 h1{
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.82);
+
+
+
+FUente: http://codictados.com/portfolio/como-crear-efecto-parallax-css-js/;
+}
+
+*/
