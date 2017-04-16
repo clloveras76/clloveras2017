@@ -7,13 +7,12 @@ Author: Carlos Lloveras
 Author URI: www.carloslloveras.com.ar
 Text Domain: clloverastheme
 */
-/* line 44, styles.scss */
 body {
   font-family: "Roboto", sans-serif;
   color: #3c3e45;
 }
 
-/* line 48, styles.scss */
+
 ul li {
   list-style-type: none;
 }
@@ -116,33 +115,22 @@ hr {
 }
 
 /* line 117, styles.scss */
-.h2titlepage {
-  color: #3c3e45!important;
-  font-size: 30px!important;
-}
-
-/* line 121, styles.scss */
-.h2titlepage:hover {
-  text-decoration: none!important;
-}
-
-/* line 125, styles.scss */
 .containerHome p {
   font-size: 22px;
 }
 
 /* Top navbar estilos*/
-/* line 132, styles.scss */
+/* line 124, styles.scss */
 #navbar-1 {
   padding: 15px;
 }
 
-/* line 136, styles.scss */
+/* line 128, styles.scss */
 .navbar {
   border: 0px;
 }
 
-/* line 140, styles.scss */
+/* line 132, styles.scss */
 .navbar-brand {
   font-weight: 900;
   color: #ffffff!important;
@@ -150,32 +138,32 @@ hr {
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 147, styles.scss */
+  /* line 139, styles.scss */
   .navbar-brand {
     margin-top: 17px;
   }
 }
-/* line 151, styles.scss */
+/* line 143, styles.scss */
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
   text-transform: uppercase;
 }
 
-/* line 158, styles.scss */
+/* line 150, styles.scss */
 .navbar .navbar-nav li a {
   font-size: 20px;
   color: #777;
 }
 
 @media (min-width: 769px) and (max-width: 990px) {
-  /* line 164, styles.scss */
+  /* line 156, styles.scss */
   .navbar .navbar-nav li a {
     font-size: 16px;
     color: red!important;
   }
 }
-/* line 169, styles.scss */
+/* line 161, styles.scss */
 .navbar .navbar-nav li a:hover {
   /*	color:$paletteColorLightBlue; */
   /*@include transparent_class06;*/
@@ -190,17 +178,17 @@ hr {
   transition: all 0.3s ease-in;
 }
 
-/* line 184, styles.scss */
+/* line 176, styles.scss */
 .navbar .navbar-collapse {
   text-align: center;
 }
 
-/* line 187, styles.scss */
+/* line 179, styles.scss */
 .activeBtn {
   border-bottom: solid 2px #2ec4b6;
 }
 
-/* line 191, styles.scss */
+/* line 183, styles.scss */
 .topNavigationBar {
   background-color: #f8f8f8;
   -webkit-box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.6);
@@ -210,7 +198,7 @@ hr {
 
 /* Top navbar estilos*/
 /* MainFooter estilos*/
-/* line 202, styles.scss */
+/* line 194, styles.scss */
 .mainFooter {
   padding: 10px;
   padding-bottom: 0px;
@@ -220,18 +208,18 @@ hr {
   margin-top: 0px;
 }
 
-/* line 211, styles.scss */
+/* line 203, styles.scss */
 .mainFooter .footerSocial {
   font-size: 16px;
   margin-top: 20px;
 }
 
-/* line 216, styles.scss */
+/* line 208, styles.scss */
 .mainFooter a {
   color: #0496ff;
 }
 
-/* line 219, styles.scss */
+/* line 211, styles.scss */
 .mainFooter a:hover {
   /* IE 8 */
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
@@ -245,33 +233,33 @@ hr {
   opacity: 0.6;
 }
 
-/* line 223, styles.scss */
+/* line 215, styles.scss */
 .square-l {
   background: #ff3366;
   color: #fff;
   vertical-align: middle;
 }
 
-/* line 229, styles.scss */
+/* line 221, styles.scss */
 .square-l {
   width: 60px;
   height: 60px;
   display: inline-block;
 }
 
-/* line 234, styles.scss */
+/* line 226, styles.scss */
 .square-l .fa {
   /*	line-height: 60px; */
   color: #fff;
   font-size: 28px;
 }
 
-/* line 239, styles.scss */
+/* line 231, styles.scss */
 .goup {
   overflow: hidden;
 }
 
-/* line 243, styles.scss */
+/* line 235, styles.scss */
 .goup span {
   position: absolute;
   width: 100%;
@@ -291,49 +279,49 @@ hr {
   transition: all 0.6s cubic-bezier(0.05, 0.06, 0.05, 0.95);
 }
 
-/* line 263, styles.scss */
+/* line 255, styles.scss */
 .goup span span:nth-of-type(1) {
   top: 18px;
 }
 
-/* line 264, styles.scss */
+/* line 256, styles.scss */
 .goup span span:nth-of-type(2) {
   top: 60px;
 }
 
-/* line 265, styles.scss */
+/* line 257, styles.scss */
 .goup span span:nth-of-type(3) {
   top: 120px;
 }
 
-/* line 266, styles.scss */
+/* line 258, styles.scss */
 .goup span span:nth-of-type(4) {
   top: 180px;
 }
 
-/* line 267, styles.scss */
+/* line 259, styles.scss */
 .goup span span:nth-of-type(5) {
   top: 240px;
 }
 
-/* line 268, styles.scss */
+/* line 260, styles.scss */
 .goup span span:nth-of-type(6) {
   top: 320px;
 }
 
-/* line 270, styles.scss */
+/* line 262, styles.scss */
 .goup:hover > span {
   top: -224px;
 }
 
-/* line 274, styles.scss */
+/* line 266, styles.scss */
 .copyright {
   font-size: 16px;
   margin: 16px;
 }
 
 /* MainFooter estilos*/
-/* line 282, styles.scss */
+/* line 274, styles.scss */
 .home-services-box .fa {
   color: #2ec4b6;
   font-size: 60px;
@@ -341,7 +329,7 @@ hr {
 }
 
 /* bloque destacado */
-/* line 291, styles.scss */
+/* line 283, styles.scss */
 .bloquedestacado {
   border-top: solid 1px #ccc;
   background-color: #F9F9F2;
@@ -350,17 +338,17 @@ hr {
   padding-bottom: 35px;
 }
 
-/* line 300, styles.scss */
+/* line 292, styles.scss */
 .bloquedestacado p {
   font-size: 18px;
 }
 
-/* line 304, styles.scss */
+/* line 296, styles.scss */
 .bloquedestacado h3 {
   font-weight: bold;
 }
 
-/* line 308, styles.scss */
+/* line 300, styles.scss */
 .bloquedestacado h2 {
   font-weight: bold;
 }

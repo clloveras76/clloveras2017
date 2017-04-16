@@ -116,22 +116,33 @@ hr {
 }
 
 /* line 117, styles.scss */
+.h2titlepage {
+  color: #3c3e45!important;
+  font-size: 30px!important;
+}
+
+/* line 121, styles.scss */
+.h2titlepage:hover {
+  text-decoration: none!important;
+}
+
+/* line 125, styles.scss */
 .containerHome p {
   font-size: 22px;
 }
 
 /* Top navbar estilos*/
-/* line 124, styles.scss */
+/* line 132, styles.scss */
 #navbar-1 {
   padding: 15px;
 }
 
-/* line 128, styles.scss */
+/* line 136, styles.scss */
 .navbar {
   border: 0px;
 }
 
-/* line 132, styles.scss */
+/* line 140, styles.scss */
 .navbar-brand {
   font-weight: 900;
   color: #ffffff!important;
@@ -139,32 +150,32 @@ hr {
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 139, styles.scss */
+  /* line 147, styles.scss */
   .navbar-brand {
     margin-top: 17px;
   }
 }
-/* line 143, styles.scss */
+/* line 151, styles.scss */
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
   text-transform: uppercase;
 }
 
-/* line 150, styles.scss */
+/* line 158, styles.scss */
 .navbar .navbar-nav li a {
   font-size: 20px;
   color: #777;
 }
 
 @media (min-width: 769px) and (max-width: 990px) {
-  /* line 156, styles.scss */
+  /* line 164, styles.scss */
   .navbar .navbar-nav li a {
     font-size: 16px;
     color: red!important;
   }
 }
-/* line 161, styles.scss */
+/* line 169, styles.scss */
 .navbar .navbar-nav li a:hover {
   /*	color:$paletteColorLightBlue; */
   /*@include transparent_class06;*/
@@ -179,27 +190,27 @@ hr {
   transition: all 0.3s ease-in;
 }
 
-/* line 176, styles.scss */
+/* line 184, styles.scss */
 .navbar .navbar-collapse {
   text-align: center;
 }
 
-/* line 179, styles.scss */
+/* line 187, styles.scss */
 .activeBtn {
   border-bottom: solid 2px #2ec4b6;
 }
 
-/* line 183, styles.scss */
+/* line 191, styles.scss */
 .topNavigationBar {
   background-color: #f8f8f8;
-  -webkit-box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.6);
-  -moz-box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.6);
-  box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0);
+  -moz-box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0);
+  box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0);
 }
 
 /* Top navbar estilos*/
 /* MainFooter estilos*/
-/* line 194, styles.scss */
+/* line 202, styles.scss */
 .mainFooter {
   padding: 10px;
   padding-bottom: 0px;
@@ -209,18 +220,18 @@ hr {
   margin-top: 0px;
 }
 
-/* line 203, styles.scss */
+/* line 211, styles.scss */
 .mainFooter .footerSocial {
   font-size: 16px;
   margin-top: 20px;
 }
 
-/* line 208, styles.scss */
+/* line 216, styles.scss */
 .mainFooter a {
   color: #0496ff;
 }
 
-/* line 211, styles.scss */
+/* line 219, styles.scss */
 .mainFooter a:hover {
   /* IE 8 */
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
@@ -234,33 +245,33 @@ hr {
   opacity: 0.6;
 }
 
-/* line 215, styles.scss */
+/* line 223, styles.scss */
 .square-l {
   background: #ff3366;
   color: #fff;
   vertical-align: middle;
 }
 
-/* line 221, styles.scss */
+/* line 229, styles.scss */
 .square-l {
   width: 60px;
   height: 60px;
   display: inline-block;
 }
 
-/* line 226, styles.scss */
+/* line 234, styles.scss */
 .square-l .fa {
   /*	line-height: 60px; */
   color: #fff;
   font-size: 28px;
 }
 
-/* line 231, styles.scss */
+/* line 239, styles.scss */
 .goup {
   overflow: hidden;
 }
 
-/* line 235, styles.scss */
+/* line 243, styles.scss */
 .goup span {
   position: absolute;
   width: 100%;
@@ -280,49 +291,49 @@ hr {
   transition: all 0.6s cubic-bezier(0.05, 0.06, 0.05, 0.95);
 }
 
-/* line 255, styles.scss */
+/* line 263, styles.scss */
 .goup span span:nth-of-type(1) {
   top: 18px;
 }
 
-/* line 256, styles.scss */
+/* line 264, styles.scss */
 .goup span span:nth-of-type(2) {
   top: 60px;
 }
 
-/* line 257, styles.scss */
+/* line 265, styles.scss */
 .goup span span:nth-of-type(3) {
   top: 120px;
 }
 
-/* line 258, styles.scss */
+/* line 266, styles.scss */
 .goup span span:nth-of-type(4) {
   top: 180px;
 }
 
-/* line 259, styles.scss */
+/* line 267, styles.scss */
 .goup span span:nth-of-type(5) {
   top: 240px;
 }
 
-/* line 260, styles.scss */
+/* line 268, styles.scss */
 .goup span span:nth-of-type(6) {
   top: 320px;
 }
 
-/* line 262, styles.scss */
+/* line 270, styles.scss */
 .goup:hover > span {
   top: -224px;
 }
 
-/* line 266, styles.scss */
+/* line 274, styles.scss */
 .copyright {
   font-size: 16px;
   margin: 16px;
 }
 
 /* MainFooter estilos*/
-/* line 274, styles.scss */
+/* line 282, styles.scss */
 .home-services-box .fa {
   color: #2ec4b6;
   font-size: 60px;
@@ -330,7 +341,7 @@ hr {
 }
 
 /* bloque destacado */
-/* line 283, styles.scss */
+/* line 291, styles.scss */
 .bloquedestacado {
   border-top: solid 1px #ccc;
   background-color: #F9F9F2;
@@ -339,17 +350,17 @@ hr {
   padding-bottom: 35px;
 }
 
-/* line 292, styles.scss */
+/* line 300, styles.scss */
 .bloquedestacado p {
   font-size: 18px;
 }
 
-/* line 296, styles.scss */
+/* line 304, styles.scss */
 .bloquedestacado h3 {
   font-weight: bold;
 }
 
-/* line 300, styles.scss */
+/* line 308, styles.scss */
 .bloquedestacado h2 {
   font-weight: bold;
 }

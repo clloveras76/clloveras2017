@@ -26,7 +26,7 @@
 							    
 							      <div class="caption">
 							        
-									<h2 class="txtcenter marginBottom30"><span class="underlinegreen"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></span></h2>
+									<h2 class="txtcenter marginBottom30"><span class="underlinegreen"><a class="h2titlepage" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></span></h2>
 							         <p class="date"><?php the_date();?><span class="categoriblog"><?php the_category(); ?></span></p>
 							         <!-- a href="<?php the_permalink();?>">	
 							     		 <!-- ?php if(has_post_thumbnail()){ the_post_thumbnail('mediumpost-thumb');} ? -->	
